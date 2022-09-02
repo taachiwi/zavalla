@@ -42,6 +42,13 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'))
 }
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(__dirname + "/dist/"));
+  app.get("*", (req, res) => {
+    res.sendFile(__dirname + "/dist/index.html");
+  });
+}
+
 // File uploading
 app.use(
   fileupload({
