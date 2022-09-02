@@ -79,7 +79,7 @@ app.use(cors())
 // Prevent http param pollution
 app.use(hpp())
 
-app.use(express.static(path.join(__dirname, 'public')))
+// app.use(express.static(path.join(__dirname, 'public')))
 
 // app.use((req, res, next) => {
 //   setTimeout(() => {
