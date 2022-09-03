@@ -3,3 +3,4 @@ package-lock.json
 public/uploads
 .vscode
 node_modules
+.vercel
