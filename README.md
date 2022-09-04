@@ -2,7 +2,7 @@
 
 Zavalla is a digital content sharing platform dedicated towards fighting misinformation with regards to, but not only, various health phenomena internationally. Each user in order for the video they upload to not be deleted, must verify themselves by submitting proof of credentials or some other type of verification that they are experts in their field. The platform has been built using VueJS, Vuetify, ExpressJS, NodeJS & MongoDB. The project is deployed live on Vercel: https://zavalla-frontend.vercel.app
 
-The front-end portion of the platform can be found in a separate repo: https://github.com/taachiwi/zavalla-frontend
+The front-end portion of the platform can be found in a separate repo: https://github.com/taachiwi/zavalla-frontend (<- Private), https://gitfront.io/r/taachiwi/jZaPQCSdYDhd/zavalla-frontend/ (<- Public).
 
 ## Features
 
